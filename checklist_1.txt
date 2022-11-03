@@ -7,9 +7,9 @@ Checklist:
 - name|surname: inputs: valid special characters: "space button", "."
 - name|surname: special characters might be used only one time each
 - surname input: is not required
-- name input: receives only latin characters 
-- email input: receives only latin characters 
-- email input: special characters are: ".","-","@"
+- name|surname input: receives only latin and special characters 
+- email input: receives only latin and special characters 
+- email input: valid special characters: ".","-","@"
 - email input: in a range of "@" and the last "." min: 2 characters, max: 32 characters
 - email input: in a range of the last "." and the ending: min: 2 characters, max: 16 characters   
 - email input: receives special characters only one time each 
@@ -26,7 +26,11 @@ Checklist:
 - submit button: when focused add option to submit by "enter"
 - submit button: hovering change background color 
 - submit button: onclicking change background color
-- 
+- password input: receives only latin and special characters
+- password input (at least): 1 uppercase, 1 lowercase latin character, 1 "@", 1 number   
+- password input: valid special characters: "@"
+- password input: min: 6 characters, max: 16 characters
+- password input: validation on popular passwords 
 
 Bug reports: 
 
@@ -57,4 +61,7 @@ Improvements:
 - in-time validation of required inputs 
 - pop out the help message next to the focused input with appropriate characters 
 - submit button: add a disabled class until all required inputs are filled 
-- 
+- password input: difficulty level indicator
+- password input: when input focused pop out the help message with important difficulty level, special characters etc.
+- new input: age
+
