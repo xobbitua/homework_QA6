@@ -1,0 +1,138 @@
+{
+  "title": "form_registration",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 708,
+      "height": 560,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "https://itcareer.pythonanywhere.com/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://itcareer.pythonanywhere.com/",
+          "title": "Demo Form"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Name:"
+        ],
+        [
+          "#name"
+        ]
+      ],
+      "offsetY": 12.604164123535156,
+      "offsetX": 232
+    },
+    {
+      "type": "change",
+      "value": "Biden",
+      "selectors": [
+        [
+          "aria/Name:"
+        ],
+        [
+          "#name"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "Biden",
+      "selectors": [
+        [
+          "aria/Surame:"
+        ],
+        [
+          "#surname"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "biden@gmail.com",
+      "selectors": [
+        [
+          "aria/Email:"
+        ],
+        [
+          "#email"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "khdfkjsdf",
+      "selectors": [
+        [
+          "aria/Password:"
+        ],
+        [
+          "#password"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Enter",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://itcareer.pythonanywhere.com/",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "type": "keyUp",
+      "key": "Enter",
+      "target": "main"
+    }
+  ]
+}
